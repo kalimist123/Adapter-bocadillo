@@ -28,7 +28,7 @@ Alternatively, if you're using [pipenv](https://github.com/pypa/pipenv), you can
 First, fire up the backend server:
 
 ```bash
-python app.py
+uvicorn app:app
 ```
 
 It will be running at `http://localhost:8000`.
